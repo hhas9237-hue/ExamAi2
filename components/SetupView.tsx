@@ -712,7 +712,7 @@ export const SetupView: React.FC<SetupViewProps> = React.memo(({
   const isShowingRecentStructure = forceRecentStructure || selectedFiles.length > 0;
 
   return (
-    <div className="bg-white dark:bg-gray-900 dark:border-gray-800 rounded-xl shadow-lg p-2 sm:p-4 mb-3 sm:mb-6 border border-gray-200 text-gray-800 dark:text-gray-100 relative flex flex-col h-[calc(100vh-1rem)] sm:h-[calc(100vh-4rem)] min-h-[40rem] transition-colors duration-200">
+    <div className="bg-white dark:bg-gray-900 dark:border-gray-800 rounded-xl shadow-lg p-2 sm:p-4 mb-3 sm:mb-6 border border-gray-200 text-gray-800 dark:text-gray-100 relative flex flex-col h-[42rem] sm:h-[45rem] transition-colors duration-200">
       <input type="file" ref={fieldImageInputRef} onChange={handleFieldImageChange} accept="image/*" className="hidden" />
 
       {/* Visual Form Modal */}
